@@ -8,6 +8,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and FIGA to PIPPO.
+          ReactDOM.render(
+          <h1>Hello, world!</h1>,
+          document.getElementById('root')
+          )
         </p>
         <a
           className="App-link"
